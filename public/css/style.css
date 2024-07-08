@@ -1,0 +1,45 @@
+body {
+    background-color: rebeccapurple; /* Синий фон */
+    color: #ffffff; /* Белый цвет текста */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #ffffff; /* Белый фон карточек */
+    color: #333333; /* Темный цвет текста */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-body a.btn {
+    background-color: #007bff; /* Синий цвет кнопок */
+    border: none;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+.card-body a.btn:hover {
+    background-color: #0056b3; /* Более темный синий цвет при наведении */
+}
+
+.add-card {
+    display: none;
+}
+
+.upd-card {
+    display: none;
+}
